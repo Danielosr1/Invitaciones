@@ -9,7 +9,7 @@
 
 .elementor-701 .elementor-element.elementor-element-dd7c805 > .elementor-background-overlay {
     background-color: #FCF9F300;
-    background-image: url("../../2020/12/bg-home-katy-rev1%402x.png");
+    background-image: url("../../../../../../imagenes/confeti2.png");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,6 +400,10 @@ body.rtl .elementor-701 .elementor-element.elementor-element-5076108 {
 
 .elementor-701 .elementor-element.elementor-element-65dc854.elementor-column > .elementor-column-wrap > .elementor-widget-wrap {
     justify-content: center;
+    background-image: url(../../../../../../imagenes/confeti2.png);
+    background-position: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .elementor-701 .elementor-element.elementor-element-0fa3d6a {
@@ -457,6 +461,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-2899af8 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 180px;
 }
 
 .elementor-701 .elementor-element.elementor-element-cbfe4c2 > .elementor-background-overlay {
@@ -1966,7 +1971,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-0024e43 {
 
 .elementor-701 .elementor-element.elementor-element-396ff71:not(.elementor-motion-effects-element-type-background), .elementor-701 .elementor-element.elementor-element-396ff71 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #FCF9F300;
-    background-image: url("../../2020/12/bg-hero%402x.png");
+    background-image: url("../../../../../../imagenes/confeti2.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2383,6 +2388,11 @@ body.rtl .elementor-701 .elementor-element.elementor-element-0024e43 {
 
     .elementor-701 .elementor-element.elementor-element-8e4e789 .elementor-heading-title {
         font-size: 50px;
+        background-image: url(../../../../../../imagenes/confeti2.png);
+    background-position: -111px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
     }
 
     body:not(.rtl) .elementor-701 .elementor-element.elementor-element-5076108 {
