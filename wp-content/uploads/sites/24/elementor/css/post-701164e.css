@@ -4,7 +4,7 @@
 
 .elementor-701 .elementor-element.elementor-element-dd7c805:not(.elementor-motion-effects-element-type-background), .elementor-701 .elementor-element.elementor-element-dd7c805 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #0a0701;
-    
+
 }
 
 .elementor-701 .elementor-element.elementor-element-dd7c805 > .elementor-background-overlay {
@@ -492,7 +492,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-2899af8 {
 
 .elementor-701 .elementor-element.elementor-element-6ef23a7 .eael-countdown-item > div {
     text-align: center;
-    background: var(--e-global-color-984ed7c);
+    background: rgba(240, 102, 51, 0.5);
     margin-right: 40px;
     margin-left: 40px;
     padding: 40px 0px 25px 0px;
