@@ -569,7 +569,7 @@
 	</svg>
 	<div id="page" class="hfeed site">
 
-		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader" style="display: none">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/katy"
 					title="Katy" rel="home">Katy</a></p>
 			<div data-elementor-type="wp-post" data-elementor-id="2178" class="elementor elementor-2178">
@@ -1534,7 +1534,7 @@
 
 
 
-						<!----------------------------- 
+						<!-----------------------------
 			* controls_data : find the the props passed indie of data attribute
 			* props.SubmitResponseMarkup : contains the markup of error or success message
 			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
@@ -1547,7 +1547,7 @@
 							function controls_data (value){
 				let currentWrapper = "mf-response-props-id-285";
 				let currentEl = document.getElementById(currentWrapper);
-				
+
 				return currentEl ? currentEl.dataset[value] : false
 			}
 
@@ -1555,24 +1555,24 @@
 			let is_edit_mode = '' ? true : false;
 			let message_position = controls_data('messageposition') || 'top';
 
-			
+
 			let message_successIcon = controls_data('successicon') || '';
 			let message_errorIcon = controls_data('erroricon') || '';
 			let message_editSwitch = controls_data('editswitchopen') === 'yes' ? true : false;
 			let message_proClass = controls_data('editswitchopen') === 'yes' ? 'mf_pro_activated' : '';
-			
+
 			let is_dummy_markup = is_edit_mode && message_editSwitch ? true : false;
 
-			
+
 			return html`
 				<form
 					className="metform-form-content"
 					ref=${parent.formContainerRef}
 					onSubmit=${ validation.handleSubmit( parent.handleFormSubmit ) }
-				
+
 					>
-			
-			
+
+
 					${is_dummy_markup ? message_position === 'top' ?  props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
 					${is_dummy_markup ? ' ' :  message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
 
@@ -1602,7 +1602,7 @@
 						<div className="elementor-element elementor-element-1689e531 elementor-widget elementor-widget-mf-text" data-id="1689e531" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-first-name&quot;}" data-widget_type="mf-text.default">
 				<div className="elementor-widget-container">
 					<div className="mf-input-wrapper">
-			
+
 			<input
 				type="text"
 				className="mf-input "
@@ -1619,7 +1619,7 @@
 					name="mf-first-name"
 					as=${html`<span className="mf-error-message"></span>`}
 					/>
-			
+
 					</div>
 
 				</div>
@@ -1632,15 +1632,15 @@
 							<div className="elementor-widget-wrap">
 						<div className="elementor-element elementor-element-9b35958 elementor-widget elementor-widget-mf-email" data-id="9b35958" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
 				<div className="elementor-widget-container">
-			
+
 		<div className="mf-input-wrapper">
-			
+
 			<input type="email"  defaultValue="" className="mf-input " id="mf-input-email-9b35958" name="mf-email" placeholder="${ parent.decodeEntities(`Your Email`) } "  onInput=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
 				/>
 
 					<${validation.ErrorMessage} errors=${validation.errors} name="mf-email" as=${html`<span className="mf-error-message"></span>`}
 				/>
-			
+
 					</div>
 
 		</div>
@@ -1659,10 +1659,10 @@
 							<div className="elementor-widget-wrap">
 						<div className="elementor-element elementor-element-b476ccb elementor-widget elementor-widget-mf-select" data-id="b476ccb" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-select&quot;}" data-widget_type="mf-select.default">
 				<div className="elementor-widget-container">
-			
-		
+
+
 		<div className="mf-input-wrapper">
-			
+
             <${props.Select}
                 className=${"mf-input mf-input-select  " + ( validation.errors['mf-select'] ? 'mf-invalid' : '' )}
                 classNamePrefix="mf_select"
@@ -1691,10 +1691,10 @@
 					name="mf-select"
 					as=${html`<span className="mf-error-message"></span>`}
 					/>
-			
+
             		</div>
 
-		
+
 				</div>
 				</div>
 						</div>
@@ -1705,10 +1705,10 @@
 							<div className="elementor-widget-wrap">
 						<div className="elementor-element elementor-element-844c49b elementor-widget elementor-widget-mf-select" data-id="844c49b" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-select&quot;}" data-widget_type="mf-select.default">
 				<div className="elementor-widget-container">
-			
-		
+
+
 		<div className="mf-input-wrapper">
-			
+
             <${props.Select}
                 className=${"mf-input mf-input-select  " + ( validation.errors['mf-select'] ? 'mf-invalid' : '' )}
                 classNamePrefix="mf_select"
@@ -1737,10 +1737,10 @@
 					name="mf-select"
 					as=${html`<span className="mf-error-message"></span>`}
 					/>
-			
+
             		</div>
 
-		
+
 				</div>
 				</div>
 						</div>
@@ -1757,11 +1757,11 @@
 							<div className="elementor-widget-wrap">
 						<div className="elementor-element elementor-element-4462219f elementor-widget elementor-widget-mf-textarea" data-id="4462219f" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-comment&quot;}" data-widget_type="mf-textarea.default">
 				<div className="elementor-widget-container">
-			
+
 		<div className="mf-input-wrapper">
-			
+
 			<textarea className="mf-input mf-textarea " id="mf-input-text-area-4462219f"
-				name="mf-comment" 
+				name="mf-comment"
 				placeholder="${ parent.decodeEntities(`Something to say`) } "
 				cols="30" rows="10"
 									onInput=${ parent.handleChange }
@@ -1774,7 +1774,7 @@
 					name="mf-comment"
 					as=${html`<span className="mf-error-message"></span>`}
 					/>
-			
+
 					</div>
 
 				</div>
@@ -1810,7 +1810,7 @@
 
 					${is_dummy_markup ? message_position === 'bottom' ? props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
 					${is_dummy_markup ? ' ' : message_position === 'bottom' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
-				
+
 				</form>
 			`
 		</script>
