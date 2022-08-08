@@ -58,6 +58,7 @@
 
 .elementor-701 .elementor-element.elementor-element-54cb4ca img {
     width: 200px;
+    border-radius: 70px;
 }
 
 .elementor-701 .elementor-element.elementor-element-54cb4ca {
@@ -96,7 +97,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
 
 .elementor-701 .elementor-element.elementor-element-3e1df54 {
     text-align: center;
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Quicksand", Sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -107,14 +108,14 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
 }
 
 .elementor-701 .elementor-element.elementor-element-6b3bf5d .elementskit-section-title-wraper .elementskit-section-title {
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 90px;
     font-weight: 600;
 }
 
 .elementor-701 .elementor-element.elementor-element-6b3bf5d .elementskit-section-title-wraper .elementskit-section-title > span {
-    color: var(--e-global-color-7ed94c8);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 91px;
     font-weight: 600;
@@ -132,10 +133,10 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
     text-transform: capitalize;
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: var(--e-global-color-ad4e4a8);
+    background-color: goldenrod;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
-    border-color: var(--e-global-color-9bf77b1);
+    border-color: #0a0701;
     border-radius: 50px 50px 50px 50px;
     padding: 18px 32px 18px 32px;
 }
@@ -166,6 +167,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
 
 .elementor-701 .elementor-element.elementor-element-ae5767c img {
     width: 235px;
+    border-radius: 70px;
 }
 
 .elementor-701 .elementor-element.elementor-element-ae5767c > .elementor-widget-container {
@@ -1446,10 +1448,10 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-d11f58c .elem
     text-transform: capitalize;
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: var(--e-global-color-ad4e4a8);
+    background-color: goldenrod;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
-    border-color: var(--e-global-color-9bf77b1);
+    border-color: #0a0701;
     border-radius: 50px 50px 50px 50px;
     padding: 18px 32px 18px 32px;
 }
