@@ -359,10 +359,10 @@ body.rtl .elementor-701 .elementor-element.elementor-element-5076108 {
     text-transform: capitalize;
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: var(--e-global-color-ad4e4a8);
+    background-color: goldenrod;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
-    border-color: var(--e-global-color-9bf77b1);
+    border-color: #0a0701;
     border-radius: 50px 50px 50px 50px;
     padding: 18px 32px 18px 32px;
 }
@@ -769,10 +769,10 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-a8b4f21 .elem
     text-transform: capitalize;
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: var(--e-global-color-ad4e4a8);
+    background-color: goldenrod;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
-    border-color: var(--e-global-color-9bf77b1);
+    border-color: #0a0701;
     border-radius: 50px 50px 50px 50px;
     padding: 18px 32px 18px 32px;
 }
