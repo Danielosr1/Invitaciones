@@ -98,7 +98,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
 .elementor-701 .elementor-element.elementor-element-3e1df54 {
     text-align: center;
     color: goldenrod;
-    font-family: "Quicksand", Sans-serif;
+    font-family: " BLACK ITALIC", serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -109,14 +109,14 @@ body.rtl .elementor-701 .elementor-element.elementor-element-54cb4ca {
 
 .elementor-701 .elementor-element.elementor-element-6b3bf5d .elementskit-section-title-wraper .elementskit-section-title {
     color: goldenrod;
-    font-family: "Balsamiq Sans", Sans-serif;
+    font-family: " BLACK ITALIC", serif;
     font-size: 90px;
     font-weight: 600;
 }
 
 .elementor-701 .elementor-element.elementor-element-6b3bf5d .elementskit-section-title-wraper .elementskit-section-title > span {
     color: goldenrod;
-    font-family: "Balsamiq Sans", Sans-serif;
+    font-family: " BLACK ITALIC", serif;
     font-size: 91px;
     font-weight: 600;
     line-height: 1.6em;
@@ -444,7 +444,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-2899af8 {
 
 .elementor-701 .elementor-element.elementor-element-d10e677 {
     text-align: center;
-    color: #656565;
+    color: #eeebeb;
     font-family: "Quicksand", Sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -603,7 +603,7 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-b2816bd .elem
 }
 
 .elementor-701 .elementor-element.elementor-element-b2816bd .elementor-icon-list-text {
-    color: var(--e-global-color-ba19def);
+    color: rgb(226, 223, 223);
     padding-left: 10px;
 }
 
