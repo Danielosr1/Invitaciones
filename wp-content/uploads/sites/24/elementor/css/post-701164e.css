@@ -412,7 +412,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-5076108 {
 }
 
 .elementor-701 .elementor-element.elementor-element-0fa3d6a .elementor-heading-title {
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 55px;
     font-weight: 900;
@@ -553,7 +553,7 @@ body.rtl .elementor-701 .elementor-element.elementor-element-2899af8 {
 }
 
 .elementor-701 .elementor-element.elementor-element-0557b91 .elementor-heading-title {
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -622,7 +622,7 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-b2816bd .elem
 }
 
 .elementor-701 .elementor-element.elementor-element-c740a06 .elementor-heading-title {
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -672,7 +672,7 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-2f79d35 .elem
 }
 
 .elementor-701 .elementor-element.elementor-element-2f79d35 .elementor-icon-list-text {
-    color: var(--e-global-color-ba19def);
+    color: rgb(226, 223, 223);
     padding-left: 10px;
 }
 
@@ -691,7 +691,7 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-2f79d35 .elem
 }
 
 .elementor-701 .elementor-element.elementor-element-5ebc9f1 .elementor-heading-title {
-    color: var(--e-global-color-98b1ee2);
+    color: goldenrod;
     font-family: "Balsamiq Sans", Sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -741,7 +741,7 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-a8b4f21 .elem
 }
 
 .elementor-701 .elementor-element.elementor-element-a8b4f21 .elementor-icon-list-text {
-    color: var(--e-global-color-ba19def);
+    color: rgb(226, 223, 223);
     padding-left: 10px;
 }
 
@@ -1451,8 +1451,8 @@ body:not(.rtl) .elementor-701 .elementor-element.elementor-element-d11f58c .elem
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
-    fill: #FFFFFF;
-    color: #FFFFFF;
+    fill: #3a3a6b;
+    color: #1b1b2b;
     background-color: goldenrod;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
